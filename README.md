@@ -10,7 +10,7 @@ This is Anitas website showing her kitchen and the types of services she offers.
 https://github.com/MaxwelOdhiambo/Anitakitchen.github.io
 ``````````````````````````````````````````````````````
 ### Link to live website
-Click [HERE](https://github.com/MaxwelOdhiambo/Anitakitchen.github.io/blob/master/index.html) to go to live website
+Click [HERE]( https://maxwelodhiambo.github.io/Anitakitchen.github.io/) to go to live website
 
 ### MIT License
 Copyright (c) 2018 Maxwel Odhiambo
