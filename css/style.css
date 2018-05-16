@@ -13,15 +13,8 @@
 
 
 }
-table{
-  border-collapse: collapse;
-}
-table td,th{
-  border: none;
-}
-.sub{
-  padding-left: 88px;
-}
+
+
 .col-md-6{
   text-align:justify;
 }
@@ -43,6 +36,7 @@ h6{
   position: absolute;
   top: 330px;
   left: 550px;
+  color: white;
 
 
 }
@@ -85,4 +79,178 @@ h6{
   border-style: solid;
     border-width: 3px;
     border-color:orange;
+}
+.footer{
+  background-color: #ff6600;
+  height: 170px;
+}
+.footer1{
+  position: absolute;
+		left: 450px;
+    bottom: 80px;
+}
+.footer2{
+  position: absolute;
+		left: 450px;
+    bottom: 30px;
+    color: white;
+}
+.footer3{
+  position: absolute;
+		left: 450px;
+    bottom: 0px;
+    color: white;
+}
+.footer4{
+  position: absolute;
+		left: 510px;
+    bottom: 80px;
+    color: white;
+}
+.sub2{
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+
+}
+.sub3{
+  position: absolute;
+  left: 530px;
+  bottom: 150px;
+
+}
+.sub1{
+  position: relative;
+}
+
+.centered{
+  position: absolute;
+    top: 30%;
+    left: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    color: white
+}
+.hh{
+  background-color: white;
+}
+.pt{
+  background-color: #ff6600;
+
+}
+#tabs{
+  position: absolute;
+  left: 250px;
+  bottom: 50px;
+
+}
+#img_cont {
+  display: table;
+  width: 90%;
+
+}
+
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 5%;
+  color: #ff6600;
+}
+
+#img_cont img {
+  width: 100%;
+  padding: 5px;
+}
+#tabs a{
+  color: #ff6600;
+}
+#HC{
+  color: #ff6600;
+  padding-left: 50px;
+}
+#AM{
+  color: #ff6600;
+}
+#img_cont1{
+  padding-left: 60px
+
+}
+#breakfast{
+  position: absolute;
+  bottom:120px;
+  left: 100px;
+  color: white;
+  font-style: italic;
+}
+#lunch{
+  position: absolute;
+  bottom:120px;
+  left: 100px;
+  color: white;
+  font-style: italic;
+}
+#dinner{
+  position: absolute;
+  bottom:120px;
+  left: 100px;
+  color: white;
+  font-style: italic;
+}
+.btn1{
+  color: #ff6600;
+}
+.btn2{
+  color: #ff6600;
+}
+.hh{
+  color: black;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
